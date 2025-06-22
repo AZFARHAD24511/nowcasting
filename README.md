@@ -93,3 +93,28 @@ As you can see, with the number of neurons in the first to third layers and the 
 Of course, LSTM  also has other hyperparameters, and due to the time-consuming nature of their testing, I only limited myself to these two. Since the result of this model was associated with high **$R^2$** , I considered this as a final model.
 ## Future research:
 One of the things that should be done in future research is tuning the number of optimal layers for the LSTM model. Little work has been done in this regard.
+
+
+### Model Visualization Outputs
+
+#### 📊 Daily Features
+![featuresdaily](featuresdaily.png)
+
+#### 📈 Predicted vs Real (Initial)
+![pred_vs_real](pred_vs_real.png)
+
+#### ✅ Predicted vs Real (Final)
+![pred_vs_real_final](pred_vs_real_final.png)
+
+#### ❌ Prediction Error (Final)
+![prediction_error_final](prediction_error_final.png)
+
+#### 🎯 Target vs Predicted (Final)
+![target_vs_predicted_final](target_vs_predicted_final.png)
+
+#### 🔹 Target Line
+![targetline](targetline.png)
+
+#### 🔁 Training vs Validation Loss
+![train_valid_loss](train_valid_loss.png)
+
